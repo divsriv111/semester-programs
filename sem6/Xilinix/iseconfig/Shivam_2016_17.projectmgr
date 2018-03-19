@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="1" owner="projectmgr" name="Shivam_2016_17" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNode>/BG_S - structural</ClosedNode>
+         <ClosedNode>/FA3 - structural</ClosedNode>
+         <ClosedNode>/FA3 - structural/HA_2 - HA3 - structural</ClosedNode>
+         <ClosedNode>/FA4_AS - structural</ClosedNode>
+         <ClosedNode>/FA4_AS - structural/F2 - FA3 - structural/ha1 - HA3 - structural</ClosedNode>
+         <ClosedNode>/FA4_AS - structural/F3 - FA3 - structural</ClosedNode>
+         <ClosedNode>/FA4_AS - structural/F4 - FA3 - structural</ClosedNode>
+         <ClosedNode>/FA4b - structural</ClosedNode>
+         <ClosedNode>/GB_S - structural</ClosedNode>
+         <ClosedNode>/HA3 - structural</ClosedNode>
+         <ClosedNode>/HS_3 - structural</ClosedNode>
+         <ClosedNode>/bg_s1 - structural</ClosedNode>
+         <ClosedNode>/multi3X2 - structural</ClosedNode>
+         <ClosedNode>/mux2X1_1 - structrual</ClosedNode>
+         <ClosedNode>/mux4X1_2 - structural</ClosedNode>
+         <ClosedNode>/mux8X1 - structural</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>hs1 - HS_3 - structural (Z:/Shivam_2016_17/HS_3.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >9</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000013a000000020000000000000000000000000000000064ffffffff0000008100000000000000020000013a0000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>hs1 - HS_3 - structural (Z:/Shivam_2016_17/HS_3.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes/>
+      <SelectedItems>
+         <SelectedItem>xnor_1.vhd</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >68</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001b10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>xnor_1.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes/>
+      <SelectedItems>
+         <SelectedItem>HA_3tb.vhd</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >65</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000100000000000000000000000000000000000000e7000000010001000100000000000000000000000064ffffffff000000810000000000000001000000e70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>HA_3tb.vhd</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000000d10000010b01000000050100000002</SourceProcessView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>View RTL Schematic</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>View RTL Schematic</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNode>/BG1 - behavior</ClosedNode>
+         <ClosedNode>/Bg_t - behavior</ClosedNode>
+         <ClosedNode>/FA4_AS_tb - behavior</ClosedNode>
+         <ClosedNode>/FA4b_tb - behavior</ClosedNode>
+         <ClosedNode>/FA_1tb - behavior</ClosedNode>
+         <ClosedNode>/FA_2tb - behavior</ClosedNode>
+         <ClosedNode>/FA_3tb - behavior</ClosedNode>
+         <ClosedNode>/FF_T - behavior</ClosedNode>
+         <ClosedNode>/HA_1tb - behavior</ClosedNode>
+         <ClosedNode>/HA_2tb - behavior</ClosedNode>
+         <ClosedNode>/HA_3tb - behavior</ClosedNode>
+         <ClosedNode>/HS_1tb - behavior</ClosedNode>
+         <ClosedNode>/HS_3 - structural</ClosedNode>
+         <ClosedNode>/PIPO_tb - behavior</ClosedNode>
+         <ClosedNode>/SIPO_tb - behavior</ClosedNode>
+         <ClosedNode>/S_tb - behavior</ClosedNode>
+         <ClosedNode>/and_3tb - behavior</ClosedNode>
+         <ClosedNode>/and_tb - behavior</ClosedNode>
+         <ClosedNode>/d_ff_tb - behavior</ClosedNode>
+         <ClosedNode>/downcounter_tb - behavior</ClosedNode>
+         <ClosedNode>/dpr_fftb - behavior</ClosedNode>
+         <ClosedNode>/gb_tb - behavior</ClosedNode>
+         <ClosedNode>/gbtb - behavior</ClosedNode>
+         <ClosedNode>/inv_tb - behavior</ClosedNode>
+         <ClosedNode>/jk_ff_tb - behavior</ClosedNode>
+         <ClosedNode>/jk_fftb - behavior</ClosedNode>
+         <ClosedNode>/multi3X2tb - behavior</ClosedNode>
+         <ClosedNode>/mux2X1_tb - behavior</ClosedNode>
+         <ClosedNode>/mux2X1_tb1 - behavior</ClosedNode>
+         <ClosedNode>/mux2X1_tb2 - behavior</ClosedNode>
+         <ClosedNode>/mux4X1_2tb - behavior</ClosedNode>
+         <ClosedNode>/mux4X1_3tb - behavior</ClosedNode>
+         <ClosedNode>/mux4X1_tb - behavior</ClosedNode>
+         <ClosedNode>/mux8X1tb - behavior</ClosedNode>
+         <ClosedNode>/nand_tb - behavior</ClosedNode>
+         <ClosedNode>/nor_tb - behavior</ClosedNode>
+         <ClosedNode>/or_4tb - behavior</ClosedNode>
+         <ClosedNode>/or_tb - behavior</ClosedNode>
+         <ClosedNode>/siso_tb - behavior</ClosedNode>
+         <ClosedNode>/sr_tb - behavior</ClosedNode>
+         <ClosedNode>/srpc_tb - behavior</ClosedNode>
+         <ClosedNode>/t_ff_tb - behavior</ClosedNode>
+         <ClosedNode>/upcounter_tb - behavior</ClosedNode>
+         <ClosedNode>/updown_tb - behavior</ClosedNode>
+         <ClosedNode>/xnor_tb - behavior</ClosedNode>
+         <ClosedNode>/xor_tb - behavior</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>xor_tb - behavior (Z:/Shivam_2016_17/xor_tb.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >45</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000014d000000020000000000000000000000000000000064ffffffff0000008100000000000000020000014d0000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>xor_tb - behavior (Z:/Shivam_2016_17/xor_tb.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostRouteSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNode>/BG1 - behavior</ClosedNode>
+         <ClosedNode>/Bg_t - behavior</ClosedNode>
+         <ClosedNode>/FA4_AS_tb - behavior</ClosedNode>
+         <ClosedNode>/FA4b_tb - behavior</ClosedNode>
+         <ClosedNode>/FA_1tb - behavior</ClosedNode>
+         <ClosedNode>/FA_2tb - behavior</ClosedNode>
+         <ClosedNode>/FA_3tb - behavior</ClosedNode>
+         <ClosedNode>/FF_T - behavior</ClosedNode>
+         <ClosedNode>/HA_1tb - behavior</ClosedNode>
+         <ClosedNode>/HA_2tb - behavior</ClosedNode>
+         <ClosedNode>/HA_3tb - behavior</ClosedNode>
+         <ClosedNode>/HS_1tb - behavior</ClosedNode>
+         <ClosedNode>/S_tb - behavior</ClosedNode>
+         <ClosedNode>/and_3tb - behavior</ClosedNode>
+         <ClosedNode>/and_tb - behavior</ClosedNode>
+         <ClosedNode>/d_ff_tb - behavior</ClosedNode>
+         <ClosedNode>/downcounter_tb - behavior</ClosedNode>
+         <ClosedNode>/dpr_fftb - behavior</ClosedNode>
+         <ClosedNode>/gb_tb - behavior</ClosedNode>
+         <ClosedNode>/gbtb - behavior</ClosedNode>
+         <ClosedNode>/inv_tb - behavior</ClosedNode>
+         <ClosedNode>/jk_ff_tb - behavior</ClosedNode>
+         <ClosedNode>/jk_fftb - behavior</ClosedNode>
+         <ClosedNode>/multi3X2tb - behavior</ClosedNode>
+         <ClosedNode>/mux2X1_tb - behavior</ClosedNode>
+         <ClosedNode>/mux2X1_tb1 - behavior</ClosedNode>
+         <ClosedNode>/mux2X1_tb2 - behavior</ClosedNode>
+         <ClosedNode>/mux4X1_2tb - behavior</ClosedNode>
+         <ClosedNode>/mux4X1_3tb - behavior</ClosedNode>
+         <ClosedNode>/mux4X1_tb - behavior</ClosedNode>
+         <ClosedNode>/mux8X1tb - behavior</ClosedNode>
+         <ClosedNode>/nand_tb - behavior</ClosedNode>
+         <ClosedNode>/nor_tb - behavior</ClosedNode>
+         <ClosedNode>/or_4tb - behavior</ClosedNode>
+         <ClosedNode>/or_tb - behavior</ClosedNode>
+         <ClosedNode>/sr_tb - behavior</ClosedNode>
+         <ClosedNode>/srpc_tb - behavior</ClosedNode>
+         <ClosedNode>/t_ff_tb - behavior</ClosedNode>
+         <ClosedNode>/upcounter_tb - behavior</ClosedNode>
+         <ClosedNode>/updown_tb - behavior</ClosedNode>
+         <ClosedNode>/xnor_tb - behavior</ClosedNode>
+         <ClosedNode>/xor_tb - behavior</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>gb_tb - behavior (Y:/Shivam_2016_17/gb_tb.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >17</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000014d000000020000000000000000000000000000000064ffffffff0000008100000000000000020000014d0000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>gb_tb - behavior (Y:/Shivam_2016_17/gb_tb.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostRouteSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Add Existing Source</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000113000000010000000100000000000000000000000064ffffffff000000810000000000000001000001130000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Add Existing Source</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostRouteSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>ISim Simulator</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ee000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ee0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ISim Simulator</CurrentItem>
+   </ItemView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes/>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+</Project>
+<?xml version="1.0" encoding="utf-8"?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="1" owner="projectmgr" name="Shivam_2016_17" >
+   <!--This is an ISE project configuration file.-->
+</Project>

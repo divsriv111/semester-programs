@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "N:/Shivam_2016_17/jkpr.xst" -ofn "N:/Shivam_2016_17/jkpr.syr" 
+xst -intstyle ise -ifn "N:/Shivam_2016_17/jkpr.xst" -ofn "N:/Shivam_2016_17/jkpr.syr" 

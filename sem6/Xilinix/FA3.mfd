@@ -1,0 +1,25 @@
+MDF Database:  version 1.0
+MDF_INFO | FA3 | XA9536XL-15-VQ44
+MACROCELL | 1 | 1 | c_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 3 | x  | z  | y
+INPUTP | 3 | 44 | 42 | 45
+EQ | 3 | 
+   c = x & y
+	# x & z
+	# y & z;
+
+MACROCELL | 0 | 1 | s_OBUF
+ATTRIBUTES | 264963 | 0
+INPUTS | 3 | x  | y  | z
+INPUTP | 3 | 44 | 45 | 42
+EQ | 3 | 
+   !s = x
+	$ y & z
+	# !y & !z;
+
+PIN | x | 64 | 0 | N/A | 44 | 2 | 1 | 1 | 0 | 1
+PIN | y | 64 | 0 | N/A | 45 | 2 | 1 | 1 | 0 | 1
+PIN | z | 64 | 0 | N/A | 42 | 2 | 1 | 1 | 0 | 1
+PIN | c | 536871040 | 0 | N/A | 5
+PIN | s | 536871040 | 0 | N/A | 8

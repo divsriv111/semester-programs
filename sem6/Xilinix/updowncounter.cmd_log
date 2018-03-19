@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "N:/Shivam_2016_17/updowncounter.xst" -ofn "N:/Shivam_2016_17/updowncounter.syr" 

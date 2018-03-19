@@ -1,0 +1,3 @@
+vhdl isim_temp "xor_1.vhd"
+vhdl isim_temp "BG_S.vhd"
+vhdl isim_temp "BG1.vhd"

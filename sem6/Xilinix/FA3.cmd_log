@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "N:/Shivam_2016_17/FA3.xst" -ofn "N:/Shivam_2016_17/FA3.syr" 
+xst -intstyle ise -ifn "N:/Shivam_2016_17/FA3.xst" -ofn "N:/Shivam_2016_17/FA3.syr" 
+xst -intstyle ise -ifn "N:/Shivam_2016_17/FA3.xst" -ofn "N:/Shivam_2016_17/FA3.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xa9500xl FA3.ngc FA3.ngd  
+cpldfit -intstyle ise -p xa95*xl-*-* -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -terminate keeper FA3.ngd 
+XSLTProcess FA3_build.xml 
+tsim -intstyle ise FA3 FA3.nga 
+taengine -intstyle ise -f FA3 -w --format html1 -l FA3_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n FA3 -i FA3 
+XSLTProcess FA3_build.xml 
+XSLTProcess FA3_build.xml 
+XSLTProcess FA3_build.xml 

@@ -1,0 +1,36 @@
+Release 12.1 - xst M.53d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to Y:/Shivam_2016_17/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to Y:/Shivam_2016_17/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "//192.168.4.11/151016/Shivam_2016_17/HA2.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//192.168.4.11/151016/Shivam_2016_17/HA2.vhd" is newer than current system time.
+Entity <ha2> compiled.
+ERROR:HDLParsers:164 - "//192.168.4.11/151016/Shivam_2016_17/HA2.vhd" Line 48. parse error, unexpected IDENTIFIER, expecting AFFECT or EQ or LE
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.58 secs
+ 
+--> 
+
+Total memory usage is 164128 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

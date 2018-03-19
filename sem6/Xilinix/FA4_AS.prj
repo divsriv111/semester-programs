@@ -1,0 +1,5 @@
+vhdl work "xor_1.vhd"
+vhdl work "or_1.vhd"
+vhdl work "HA3.vhd"
+vhdl work "FA3.vhd"
+vhdl work "FA4_AS.vhd"

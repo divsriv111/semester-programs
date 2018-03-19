@@ -1,0 +1,54 @@
+Release 12.1 - xst M.53d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to Y:/Shivam_2016_17/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.13 secs
+ 
+--> Parameter xsthdpdir set to Y:/Shivam_2016_17/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.14 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/multi3X2 is now defined in a different file.  It was defined in "//fileserver1/151016/Shivam_2016_17/multi3X2.vhd", and is now defined in "//192.168.4.11/151016/Shivam_2016_17/multi3X2.vhd".
+WARNING:HDLParsers:3607 - Unit work/multi3X2/structural is now defined in a different file.  It was defined in "//fileserver1/151016/Shivam_2016_17/multi3X2.vhd", and is now defined in "//192.168.4.11/151016/Shivam_2016_17/multi3X2.vhd".
+WARNING:HDLParsers:3607 - Unit work/FA3 is now defined in a different file.  It was defined in "//fileserver1/151016/Shivam_2016_17/FA3.vhd", and is now defined in "//192.168.4.11/151016/Shivam_2016_17/FA3.vhd".
+WARNING:HDLParsers:3607 - Unit work/FA3/structural is now defined in a different file.  It was defined in "//fileserver1/151016/Shivam_2016_17/FA3.vhd", and is now defined in "//192.168.4.11/151016/Shivam_2016_17/FA3.vhd".
+WARNING:HDLParsers:3607 - Unit work/HA3 is now defined in a different file.  It was defined in "//fileserver1/151016/Shivam_2016_17/HA3.vhd", and is now defined in "//192.168.4.11/151016/Shivam_2016_17/HA3.vhd".
+WARNING:HDLParsers:3607 - Unit work/HA3/structural is now defined in a different file.  It was defined in "//fileserver1/151016/Shivam_2016_17/HA3.vhd", and is now defined in "//192.168.4.11/151016/Shivam_2016_17/HA3.vhd".
+WARNING:HDLParsers:3607 - Unit work/or_1 is now defined in a different file.  It was defined in "//fileserver1/151016/Shivam_2016_17/or_1.vhd", and is now defined in "//192.168.4.11/151016/Shivam_2016_17/or_1.vhd".
+WARNING:HDLParsers:3607 - Unit work/or_1/Behavioral is now defined in a different file.  It was defined in "//fileserver1/151016/Shivam_2016_17/or_1.vhd", and is now defined in "//192.168.4.11/151016/Shivam_2016_17/or_1.vhd".
+WARNING:HDLParsers:3607 - Unit work/xor_1 is now defined in a different file.  It was defined in "//fileserver1/151016/Shivam_2016_17/xor_1.vhd", and is now defined in "//192.168.4.11/151016/Shivam_2016_17/xor_1.vhd".
+WARNING:HDLParsers:3607 - Unit work/xor_1/Behavioral is now defined in a different file.  It was defined in "//fileserver1/151016/Shivam_2016_17/xor_1.vhd", and is now defined in "//192.168.4.11/151016/Shivam_2016_17/xor_1.vhd".
+Compiling vhdl file "//192.168.4.11/151016/Shivam_2016_17/xor_1.vhd" in Library work.
+Architecture behavioral of Entity xor_1 is up to date.
+Compiling vhdl file "//192.168.4.11/151016/Shivam_2016_17/HA3.vhd" in Library work.
+Architecture structural of Entity ha3 is up to date.
+Compiling vhdl file "//192.168.4.11/151016/Shivam_2016_17/or_1.vhd" in Library work.
+Architecture behavioral of Entity or_1 is up to date.
+Compiling vhdl file "//192.168.4.11/151016/Shivam_2016_17/FA3.vhd" in Library work.
+Architecture structural of Entity fa3 is up to date.
+Compiling vhdl file "//192.168.4.11/151016/Shivam_2016_17/multi3X2.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "//192.168.4.11/151016/Shivam_2016_17/multi3X2.vhd" is newer than current system time.
+Entity <multi3x2> compiled.
+Entity <multi3x2> (Architecture <structural>) compiled.
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.30 secs
+ 
+--> 
+
+Total memory usage is 164576 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   12 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

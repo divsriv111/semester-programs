@@ -1,0 +1,6 @@
+vhdl isim_temp "xor_1.vhd"
+vhdl isim_temp "and_1.vhd"
+vhdl isim_temp "or_1.vhd"
+vhdl isim_temp "HA3.vhd"
+vhdl isim_temp "FA3.vhd"
+vhdl isim_temp "FA_3tb.vhd"

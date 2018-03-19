@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "Y:/Shivam_2016_17/HA1.xst" -ofn "Y:/Shivam_2016_17/HA1.syr" 
+xst -intstyle ise -ifn "Y:/Shivam_2016_17/HA1.xst" -ofn "Y:/Shivam_2016_17/HA1.syr" 

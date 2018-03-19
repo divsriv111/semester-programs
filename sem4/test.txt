@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+char ch,a[500],b[500],i=0,j=0;
+while(1)
+{
+scanf("%c",&ch);
+if(ch=='\n')
+break;
+a[i]=ch;
+i++;
+}
+printf("\n\n");
+for(i=0;i<strlen(a);i++)
+{
+strcpy(b,a);
+if(b[i]>='A' && b[i]<='Z')
+b[i]+=32;
+else if(b[i]>='a' && b[i]<='z')
+b[i]-=32;
+while(b[i]!='\0')
+{
+printf("%c",b[i]);
+i++;
+}
+for(j=0;j<100000;j++)
+{}
+printf("\n");
+}
+return 0;
+}

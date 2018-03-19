@@ -1,0 +1,2 @@
+vhdl isim_temp "SIPO_shift.vhd"
+vhdl isim_temp "SIPO_tb.vhd"

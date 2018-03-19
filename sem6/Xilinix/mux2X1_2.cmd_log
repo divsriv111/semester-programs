@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "N:/Shivam_2016_17/mux2X1_2.xst" -ofn "N:/Shivam_2016_17/mux2X1_2.syr" 

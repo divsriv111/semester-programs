@@ -1,0 +1,2 @@
+vhdl isim_temp "half_add_1.vhd"
+vhdl isim_temp "half_add_behavioral_tb.vhd"

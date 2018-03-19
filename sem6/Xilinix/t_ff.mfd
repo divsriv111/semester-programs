@@ -1,0 +1,28 @@
+MDF Database:  version 1.0
+MDF_INFO | t_ff | XA9536XL-15-VQ44
+MACROCELL | 0 | 1 | temp
+ATTRIBUTES | 4621123 | 0
+OUTPUTMC | 1 | 1 | 1
+INPUTS | 1 | t
+INPUTP | 1 | 44
+EQ | 3 | 
+   q.T = Vcc;
+   q.CLK = clk;	// GCK
+   q.CE = t;
+GLOBALS | 1 | 2 | clk
+
+MACROCELL | 1 | 1 | qbar_OBUF
+ATTRIBUTES | 8684359 | 0
+INPUTS | 2 | q  | t
+INPUTMC | 1 | 0 | 1
+INPUTP | 1 | 44
+EQ | 3 | 
+   qbar.D = q;
+   qbar.CLK = clk;	// GCK
+   qbar.CE = t;
+GLOBALS | 1 | 2 | clk
+
+PIN | t | 64 | 0 | N/A | 44 | 2 | 0 | 1 | 1 | 1
+PIN | clk | 4096 | 0 | N/A | 10 | 2 | 0 | 1 | 1 | 1
+PIN | q | 536871040 | 0 | N/A | 8
+PIN | qbar | 536871040 | 0 | N/A | 5

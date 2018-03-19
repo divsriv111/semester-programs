@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "N:/Shivam_2016_17/FA4_AS.xst" -ofn "N:/Shivam_2016_17/FA4_AS.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xa9500xl FA4_AS.ngc FA4_AS.ngd  
+cpldfit -intstyle ise -p xa95*xl-*-* -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -terminate keeper FA4_AS.ngd 
+tsim -intstyle ise FA4_AS FA4_AS.nga 
+taengine -intstyle ise -f FA4_AS -w --format html1 -l FA4_AS_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n FA4_AS -i FA4_AS 

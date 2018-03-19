@@ -1,0 +1,16 @@
+Running: C:\Xilinx\12.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o Z:/Shivam_2016_17/xor_tb_isim_beh.exe -prj Z:/Shivam_2016_17/xor_tb_beh.prj work.xor_tb 
+ISim M.53d (signature 0x7dea747)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "Z:/Shivam_2016_17/xor_1.vhd" into library work
+Parsing VHDL file "Z:/Shivam_2016_17/xor_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Compiling architecture behavioral of entity xor_1 [xor_1_default]
+Compiling architecture behavior of entity xor_tb
+Time Resolution for simulation is 1ps.
+ERROR:Simulator:1028 - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\xor_tb_isim_beh.exe.sim\libPortability.dll"
+ERROR:Simulator:861 - Failed to link the design

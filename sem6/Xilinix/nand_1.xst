@@ -1,0 +1,6 @@
+set -tmpdir "Y:/Shivam_2016_17/xst/projnav.tmp"
+set -xsthdpdir "Y:/Shivam_2016_17/xst"
+elaborate
+-lso "Y:/Shivam_2016_17/nand_1.lso"
+-ifn nand_1.prj
+-ifmt mixed

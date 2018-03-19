@@ -1,0 +1,116 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+</td></tr><tr><td>
+F3/s1/F3/s1_D6_ <= a(2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F3/s1/F3/s1_D6_ <= b2/b2_D;
+</td></tr><tr><td>
+</td></tr><tr><td>
+F4/s1/F4/s1_D7_ <= a(3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F4/s1/F4/s1_D7_ <= b3/b3_D;
+</td></tr><tr><td>
+</td></tr><tr><td>
+b1/b1_D <= Cin
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b1/b1_D <= b(1);
+</td></tr><tr><td>
+</td></tr><tr><td>
+b2/b2_D <= Cin
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b2/b2_D <= b(2);
+</td></tr><tr><td>
+</td></tr><tr><td>
+b3/b3_D <= Cin
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b3/b3_D <= b(3);
+</td></tr><tr><td>
+</td></tr><tr><td>
+c0/c0_D28_ <= ((a(0) AND b(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT b(0) AND Cin));
+</td></tr><tr><td>
+</td></tr><tr><td>
+cout <= ((EXP5_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(1) AND a(2) AND b1/b1_D AND b3/b3_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(1) AND b1/b1_D AND b2/b2_D AND b3/b3_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(0) AND a(1) AND a(2) AND a(3) AND b(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(0) AND a(2) AND a(3) AND b(0) AND b1/b1_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(1) AND a(2) AND a(3) AND NOT b(0) AND Cin)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (EXP8_.EXP)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(0) AND a(1) AND a(3) AND b(0) AND b2/b2_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(0) AND a(3) AND b(0) AND b1/b1_D AND b2/b2_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(1) AND a(3) AND NOT b(0) AND Cin AND b2/b2_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(2) AND a(3) AND NOT b(0) AND Cin AND b1/b1_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(3) AND NOT b(0) AND Cin AND b1/b1_D AND b2/b2_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(3) AND b3/b3_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(2) AND a(3) AND b2/b2_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(2) AND b2/b2_D AND b3/b3_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(1) AND a(2) AND a(3) AND b1/b1_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(1) AND a(3) AND b1/b1_D AND b2/b2_D));
+</td></tr><tr><td>
+</td></tr><tr><td>
+s(0) <= b(0)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s(0) <= a(0);
+</td></tr><tr><td>
+</td></tr><tr><td>
+s(1) <= NOT (a(1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s(1) <= NOT (((b1/b1_D AND c0/c0_D28_)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT b1/b1_D AND NOT c0/c0_D28_)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+s(2) <= F3/s1/F3/s1_D6_
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s(2) <= ((NOT b(0) AND Cin AND b1/b1_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(1) AND b1/b1_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(0) AND a(1) AND b(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(0) AND b(0) AND b1/b1_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(1) AND NOT b(0) AND Cin));
+</td></tr><tr><td>
+</td></tr><tr><td>
+s(3) <= F4/s1/F4/s1_D7_
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s(3) <= ((a(0) AND a(1) AND b(0) AND b2/b2_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(0) AND a(2) AND b(0) AND b1/b1_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(1) AND a(2) AND NOT b(0) AND Cin)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(2) AND NOT b(0) AND Cin AND b1/b1_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(0) AND b(0) AND b1/b1_D AND b2/b2_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(1) AND NOT b(0) AND Cin AND b2/b2_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT b(0) AND Cin AND b1/b1_D AND b2/b2_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(2) AND b2/b2_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(1) AND a(2) AND b1/b1_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(1) AND b1/b1_D AND b2/b2_D)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (a(0) AND a(1) AND a(2) AND b(0)));
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

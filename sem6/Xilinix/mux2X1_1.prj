@@ -1,0 +1,4 @@
+vhdl work "or_1.vhd"
+vhdl work "inv_1.vhd"
+vhdl work "and_1.vhd"
+vhdl work "mux2X1_1.vhd"
