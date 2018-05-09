@@ -1,0 +1,2 @@
+vhdl isim_temp "ex4_q2_1x8DMUX.vhd"
+vhdl isim_temp "DMUX1x8tb.vhd"

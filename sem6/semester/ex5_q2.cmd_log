@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "N:/COA lab/semester/ex5_q2.xst" -ofn "N:/COA lab/semester/ex5_q2.syr" 
+xst -intstyle ise -ifn "N:/COA lab/semester/ex5_q2.xst" -ofn "N:/COA lab/semester/ex5_q2.syr" 
+xst -intstyle ise -ifn "N:/COA lab/semester/ex5_q2.xst" -ofn "N:/COA lab/semester/ex5_q2.syr" 
+xst -intstyle ise -ifn "N:/COA lab/semester/ex5_q2.xst" -ofn "N:/COA lab/semester/ex5_q2.syr" 
+xst -intstyle ise -ifn "N:/COA lab/semester/ex5_q2.xst" -ofn "N:/COA lab/semester/ex5_q2.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xa9500xl "ex5_q2.ngc" ex5_q2.ngd  
+cpldfit -intstyle ise -p xa95*xl-*-* -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -terminate keeper ex5_q2.ngd 
+tsim -intstyle ise ex5_q2 ex5_q2.nga 
+taengine -intstyle ise -f ex5_q2 -w --format html1 -l ex5_q2_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n ex5_q2 -i ex5_q2 
